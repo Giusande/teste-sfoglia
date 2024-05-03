@@ -1,0 +1,32 @@
+.header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 70px;
+    width: 100%;
+    position: absolute;
+}
+
+.header .logo{
+    height: 70px;
+}
+
+.list-links{
+    display: flex;
+}
+
+.list-links .links{
+    margin: 0 15px;
+    list-style: none;
+}
+
+.list-links .links a{
+    text-decoration: none;
+    color: #000000;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.links a:hover{
+    border-bottom: 1px solid #c13232;
+}
